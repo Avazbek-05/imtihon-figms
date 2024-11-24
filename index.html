@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khan</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet " href="./css/output.css" />
+    <link rel="icon" href="./imgs/svg/logo.svg" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header p-[21px_0]">
+      <div class="container1 flex items-center justify-between">
+        
+        <label class="hidden max-[800px]:block" for="check">
+          <i class="fa-solid fa-bars-staggered text-[24px]"></i
+        ></label>
+        <div class="logo flex items-center gap-x-3">
+          <a href="./index.html"><img class="w-[44px] h-[44px]" src="./imgs/svg/logo.svg" alt="logo" /></a>
+          <div class="font-pop text-d2">
+            <h3><a class="font-[700] text-[18px]" href="#">Khan</a></h3>
+            <p><a class="font-[400] text-[14px]" href="#">Academy</a></p>
+          </div>
+        </div>
+        <input type="checkbox" id="check" class="hidden" />
+        <div class="navbar-menu flex items-center gap-x-[30px]">
+          <label for="check">
+            <i
+              class="fa-solid fa-xmark hidden max-[800px]:block absolute top-5 left-5 text-[24px]"
+            ></i>
+          </label>
+          <nav class="max-[1000px]:hidden max-[800px]:block">
+            <ul
+              class="flex items-center gap-[30px] text-dark56 text-[16px] max-[800px]:flex-col"
+            >
+              <li><a href="#">Asosiy</a></li>
+              <li>
+                <a class="flex items-center gap-1" href="#"
+                  >Kurslarimiz
+                  <i class="fa-solid fa-chevron-down max-[800px]:hidden"></i>
+                </a>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Biz haqimizda</a></li>
+              <li><a href="#">Bog’lanish</a></li>
+            </ul>
+          </nav>
+
+          <i
+            class="fa-solid fa-magnifying-glass text-a5 max-[800px]:hidden"
+          ></i>
+          <button
+            class="flex items-center gap-1 transition-all border border-solid border-f7 p-[4px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
+          >
+            <h4>
+              <a class="text-[14px] font-[500] text-dark56" href="#">En</a>
+            </h4>
+            <i class="fa-solid fa-chevron-down text-[12px] text-dark56"></i>
+          </button>
+          <button
+            class="flex items-center gap-1 border border-solid border-f7 p-[6px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
+          >
+            <h4>
+              <a
+                class="text-dark56 text-[16px] font-[500]"
+                href="./doshbard.html"
+                >Kirish</a
+              >
+            </h4>
+            <i class="fa-solid fa-arrow-right-long w-4 text-dark56"></i>
+          </button>
+        </div>
+        <img
+          class="hidden w-[44px] h-[44px] max-[800px]:block"
+          src="./imgs/img/student-1.png"
+          alt="student-1"
+        />
+      </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+      <!-- wrapper start -->
+      <section class="wrapper bg-fc">
+        <div
+          class="container1 p-[100px_0_121px_0] flex flex-col justify-center items-center gap-y-[59px] max-[600px]:p-[50px_0_60px_0]"
+        >
+          <div class="flex flex-col gap-7 max-w-[860px] m-auto text-center">
+            <h1
+              class="font-[800] text-[62px] text-dark56 max-[895px]:text-[50px] max-[640px]:text-[40px] max-[460px]:text-[30px] max-[460px]:font-[700] max-[316px]:text-[25px]"
+            >
+              <span class="text-d2">Dasturlashni</span> biz bilan qulay muhitda
+              o‘rganing
+            </h1>
+            <p class="font-[400] text-[20px] text-a5 max-[316px]:text-[18px]">
+              Khan Academy - bu siz izlagan akademiya bo’lib, unda siz juda
+              qisqa muddatda istalgan dasturlash sohasida Junior darajasiga
+              chiqa olasiz!
+            </p>
+          </div>
+          <div
+            class="flex items-center gap-x-4 max-[425px]:flex-col max-[425px]:gap-3 max-[425px]:w-full"
+          >
+            <button
+              class="btn max-[425px]:w-full transition-all duration-500 max-[425px]:justify-center hover:bg-[#2e39b1] hover:transition-all"
+            >
+              Boshlash
+              <i class="fa-solid fa-arrow-right-long w-4"></i>
+            </button>
+            <button
+              class="btn-2 max-[425px]:w-full transition-all duration-500 max-[425px]:justify-center hover:bg-d2 hover:transition-all hover:text-white"
+            >
+              <img src="./imgs/svg/github.svg" alt="github" />
+              <h3 class="text-dark56 font-[]">GitHub</h3>
+            </button>
+          </div>
+          <button
+            class="most-btn flex items-center gap-3 p-[17px_28px_17px_30px] rounded-[8px] max-[320px]:p-[17px_15px]"
+          >
+            <img class="w-[44px] h-[44px]" src="./imgs/svg/icon-1.svg" alt="" />
+            <div class="flex flex-col gap-y-[6px] font-[600] items-start">
+              <p class="text-[10px] text-dark56">GitNation React Award</p>
+              <h4
+                class="text-[16px] text-b3 max-w-[175px] text-start max-[289px]:text-[14px]"
+              >
+                Most Impactful Project to the Community
+              </h4>
+            </div>
+          </button>
+        </div>
+      </section>
+      <!-- wrapper end -->
+
+      <!-- time start -->
+      <section class="time mt-[110px] max-[600]:nt-[60px]">
+        <div class="container1">
+          <div class="mb-[50px] max-w-[775px] m-auto text-center">
+            <h1
+              class="text-[54px] font-[700] text-dark56 max-[495px]:text-[30px]"
+            >
+              Kam vaqtda <span class="text-d2"> ko‘proq o‘rganish</span>
+            </h1>
+            <p class="max-w-[483px] m-auto pt-4 text-[20px] font-[400] text-a5">
+              Khan akademiyasida juda qisqa muddatda istalgan dasturlash
+              sohasida Junior darajasiga chiqa olasiz
+            </p>
+          </div>
+          <div
+            class="flex items-center justify-between border border-solid border-a5 rounded-[10px] max-[1204px]:flex-col max-[1204px]:gap-7"
+          >
+            <video
+              class="rounded-[10px_0_0_10px] basis-[60%] object-cover h-[500px] max-[1204px]:w-full"
+              controls
+              poster="./imgs/img/video-img.png"
+              src="./video/2024-11-23 17.31.47.mp4"
+            ></video>
+            <div class="w-full flex justify-center mb-[0px] basis-[40%]">
+              <div
+                class="shadow-[0px_10px_16px_rgba(0,0,0,0.25)] border-1 border-solid border-fc rounded-[6px] p-5 w-[320px] max-[1204px]:w-full"
+              >
+                <img src="./imgs/img/ kitchen .png" alt="" />
+                <div
+                  class="flex mt-[12px] items-center gap-[10px] text-d2 max-[332px]:grid max-[322px]:grid-cols-2"
+                >
+                  <p class="hover:bg-f7 hover:p-[3px_5px] hover:rounded-[4px]">
+                    PLUS
+                  </p>
+                  <p class="hover:bg-f7 hover:p-[3px_5px] hover:rounded-[4px]">
+                    VERIFIED
+                  </p>
+                  <p>*</p>
+                  <p class="hover:bg-f7 hover:p-[3px_5px] hover:rounded-[4px]">
+                    CAPE TOWN
+                  </p>
+                </div>
+                <h3 class="pt-6 text-[20px] font-[600] text-dark56">
+                  Modern, Chic Penthouse
+                </h3>
+                <p class="text-[14px] pt-3 font-[600] text-dark47">
+                  $119 <span class="font-[400]">/night</span>
+                </p>
+                <div class="flex items-center gap-2 pt-[30px] justify-end">
+                  <div class="flex items-center gap-1">
+                    <img src="./imgs/svg/star-1.svg" alt="" />
+                    <img src="./imgs/svg/star-1.svg" alt="" />
+                    <img src="./imgs/svg/star-1.svg" alt="" />
+                    <img src="./imgs/svg/star-1.svg" alt="" />
+                    <img src="./imgs/svg/star-2.svg" alt="" />
+                  </div>
+                  <p class="font-[600] text-[14px] text-d2">
+                    4.5 <span class="font-[400]">(190)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- time end -->
+
+      <!-- Our strengths  start -->
+      <div class="bg-[#f8fafc] mt-[55px]">
+        <div class="container1 p-[70px_0]">
+          <div class="text-center">
+            <h2
+              class="text-[54px] font-[700] text-dark56 max-[700px]:text-[40px] max-[340px]:text-[28px]"
+            >
+              Bizning ustun <span class="text-d2">jihatlarimiz</span>
+            </h2>
+            <p class="text-[20px] font-[400] text-a5 pt-4">
+              Quyida bizning ustun jihatlarimiz bilan tanishing
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-3 gap-10 mt-[50px] max-[1150px]:grid-cols-2 max-[580px]:grid-cols-1"
+          >
+            <!-- 1 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">
+                    Kuchli Mentorlar
+                  </h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-3.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">
+                    Muntazam o’rganish
+                  </h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">
+                    Qulay muhit
+                  </h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">
+                    Intensiv Darslar
+                  </h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">Ahil Jamoa</h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div>
+              <div
+                class="p-10 hover:shadow-[0px_10px_16px_rgba(0,0,0,0.25)] transition-all duration-500 border border-solid border-f7 rounded-[12px] flex flex-col gap-5 max-[757px]:p-5"
+              >
+                <img
+                  class="w-[50px] h-[50px]"
+                  src="./imgs/svg/icon-2.svg"
+                  alt=""
+                />
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-dark56 text-[16px] font-[600]">
+                    Amaliy darslar
+                  </h3>
+                  <p
+                    class="text-a5 text-[18px] font-[400] max-[700px]:text-[16px]"
+                  >
+                    Webbrain UI strictly follows WAIARIA standarts for all
+                    components strictly follows.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our strengths end -->
+
+      <!-- Kelajagingizni Khan Academy bilan quring start-->
+      <section>
+        <div class="container1">
+          <div class="text-center pt-[70px] m-auto">
+            <h2
+              class="text-[54px] font-[700] max-w-[792px] m-auto text-dark56 max-[700px]:text-[40px] max-[340px]:text-[28px]"
+            >
+              Kelajagingizni
+              <span class="text-d2"> Khan Academy bilan</span> quring
+            </h2>
+            <p class="text-[20px] font-[400] text-a5 pt-4">
+              Quyida bizning ustun jihatlarimiz bilan tanishing
+            </p>
+            <button
+              class="btn max-[425px]:w-full max-[425px]:justify-center m-auto mt-10 hover:bg-[#2e39b1] transition-all duration-500 "
+            >
+              Ko’proq ko’rish
+              <i class="fa-solid fa-arrow-right-long w-4"></i>
+            </button>
+          </div>
+
+          <div
+            class="grid grid-cols-2 grid-rows-2 gap-10 mt-[75px] max-[1200px]:grid-cols-1 max-[1200px]:grid-rows-1"
+          >
+            <div class="relative h-[360px] group">
+              <img class="w-full h-full" src="./imgs/img/card-1.jpg" alt="" />
+              <div
+                class="card flex items-end justify-between absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <h2 class="text-2xl font-[600] text-white p-[20px]">
+                  Project Name
+                </h2>
+                <i
+                  class="fa-regular fa-heart text-white text-[30px] p-[20px]"
+                ></i>
+              </div>
+            </div>
+
+            <div class="relative h-full row-span-2  group">
+              <img class="w-full h-[100%]" src="./imgs/img/card-3.png" alt="" />
+              <div
+                class="card flex items-end justify-between absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <h2 class="text-2xl font-[600] text-white p-[20px]">
+                  Project Name
+                </h2>
+                <i
+                  class="fa-regular fa-heart text-white text-[30px] p-[20px]"
+                ></i>
+              </div>
+            </div>
+
+            <div class="relative h-[360px] group">
+              <img class="w-full h-full" src="./imgs/img/card-2.png" alt="" />
+              <div
+                class="card flex items-end justify-between absolute w-full h-full -bottom-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <h2 class="text-2xl font-[600] text-white p-[20px]">
+                  Project Name
+                </h2>
+                <i
+                  class="fa-regular fa-heart text-white text-[30px] p-[20px]"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Kelajagingizni Khan Academy bilan quring  end-->
+
+      <!-- Shiddat bilan o‘sayotgan Khan Academy start -->
+      <section class="mt-[100px] bg-[url('/imgs/img/blue-img.png')]">
+        <div class="container1 p-[60px_0]">
+          <div class="text-center ]">
+            <h1
+              class="text-[54px] font-[700] text-white max-w-[658px] m-auto max-[675px]:text-[40px] max-[500px]:text-[30px]"
+            >
+              Shiddat bilan o‘sayotgan Khan Academy
+            </h1>
+            <p class="text-[20px] font-[500] text-[rgba(255,255,255,0.7)]">
+              We’re dedicated to improving the experience and perfomance of
+              Webbrain UI
+            </p>
+          </div>
+          <div
+            class="flex items-center justify-between mt-[50px] max-[940px]:grid max-[940px]:grid-cols-2 max-[940px]:gap-5 max-[555px]:flex max-[555px]:flex-col max-[555px]:justify-center max-[555px]:items-center"
+          >
+            <div
+              class="flex items-center gap-[30px] max-[940px]:m-auto max-[600px]:justify-between max-[555px]:justify-between"
+            >
+              <p class="w-[3px] h-[133px] bg-[#ecc744]"></p>
+              <div>
+                <h1
+                  class="text-[80px] font-[500] text-white max-[1045px]:text-[50px]"
+                >
+                  1.2M
+                </h1>
+                <div class="flex items-center gap-[6px]">
+                  <img src="./imgs/svg/dowlond.svg" alt="" />
+                  <p class="text-[18px] font-[500] text-white">
+                    Download per month
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-[30px] max-[940px]:m-auto max-[600px]:justify-between max-[555px]:justify-between"
+            >
+              <p class="w-[3px] h-[133px] bg-[#ecc744]"></p>
+              <div>
+                <h1
+                  class="text-[80px] font-[500] text-white max-[1045px]:text-[50px]"
+                >
+                  1.2M
+                </h1>
+                <div class="flex items-center gap-[6px]">
+                  <img src="./imgs/svg/dowlond.svg" alt="" />
+                  <p class="text-[18px] font-[500] text-white">
+                    Download per month
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-[30px] max-[940px]:m-auto max-[600px]:justify-between max-[555px]:justify-between"
+            >
+              <p class="w-[3px] h-[133px] bg-[#ecc744]"></p>
+              <div>
+                <h1
+                  class="text-[80px] font-[500] text-white max-[1045px]:text-[50px]"
+                >
+                  1.2M
+                </h1>
+                <div class="flex items-center gap-[6px]">
+                  <img src="./imgs/svg/dowlond.svg" alt="" />
+                  <p class="text-[18px] font-[500] text-white">
+                    Download per month
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center gap-[30px] max-[940px]:m-auto max-[600px]:justify-between max-[555px]:justify-between"
+            >
+              <p class="w-[3px] h-[133px] bg-[#ecc744]"></p>
+              <div>
+                <h1
+                  class="text-[80px] font-[500] text-white max-[1045px]:text-[50px]"
+                >
+                  1.2M
+                </h1>
+                <div class="flex items-center gap-[6px]">
+                  <img src="./imgs/svg/dowlond.svg" alt="" />
+                  <p class="text-[18px] font-[500] text-white">
+                    Download per month
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Shiddat bilan o‘sayotgan Khan Academy end -->
+
+      <!-- Bizning professional jamoamiz -->
+      <section class="bg-fc mt-[]">
+        <div class="container1 p-[85px_0_100px_0]">
+          <div class="text-center flex flex-col gap-5">
+            <h1
+              class="text-[54px] font-[700] text-dark56 max-[596px]:text-[30px]"
+            >
+              Bizning professional <span class="text-d2">jamoamiz</span>
+            </h1>
+            <p class="text-a5 font-[400] text-[20px]">
+              A collection of websites and projects built with Webbrain UI
+            </p>
+            <button
+              class="btn max-[425px]:w-full max-[425px]:justify-center m-auto hover:bg-[#2e39b1] transition-all duration-500"
+            >
+              Ko‘proq ko‘rish
+              <i class="fa-solid fa-arrow-right-long w-4"></i>
+            </button>
+          </div>
+          <div
+            class="grid grid-cols-4 gap-10 mt-[50px] max-[1100px]:grid-cols-2 max-[500px]:grid-cols-1"
+          >
+            <!-- 1 -->
+            <div
+              class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
+            >
+              <img
+                class="w-full h-[253px]"
+                src="./imgs/img/Cameron Williamson.png"
+                alt=""
+              />
+              <div class="pb-[10px] text-center">
+                <h3 class="text-[18px] font-[600] text-dark56">
+                  Cameron Williamson
+                </h3>
+                <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+              </div>
+              <div
+                class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <div class="flex items-center gap-5">
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-twitter text-[15px]"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div
+            class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
+          >
+            <img
+              class="w-full h-[253px]"
+              src="./imgs/img/Brooklyn Simmons.png"
+              alt=""
+            />
+            <div class="pb-[10px] text-center">
+              <h3 class="text-[18px] font-[600] text-dark56">
+                Brooklyn Simmons
+              </h3>
+              <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+            </div>
+            <div
+              class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+            >
+              <div class="flex items-center gap-5">
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-twitter text-[15px]"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+            <!-- 3 -->
+            <div
+            class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
+          >
+            <img
+              class="w-full h-[253px]"
+              src="./imgs/img/Savannah Nguyen.png"
+              alt=""
+            />
+            <div class="pb-[10px] text-center">
+              <h3 class="text-[18px] font-[600] text-dark56">
+                Savannah Nguyen
+              </h3>
+              <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+            </div>
+            <div
+              class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+            >
+              <div class="flex items-center gap-5">
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-twitter text-[15px]"></i>
+                </button>
+                <button
+                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+            <!-- 4 -->
+            <div
+              class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
+            >
+              <img
+                class="w-full h-[253px]"
+                src="./imgs/img/Darlene Robertson.png"
+                alt=""
+              />
+              <div class="pb-[10px] text-center">
+                <h3 class="text-[18px] font-[600] text-dark56">
+                  Darlene Robertson
+                </h3>
+                <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+              </div>
+              <div
+                class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <div class="flex items-center gap-5">
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-twitter text-[15px]"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Bizning professional jamoamiz  end-->
+
+      <!-- Hamkorlik qilishga tayyormisiz? start -->
+      <section class="bg-[url('/imgs/img/blue-img.png')]">
+        <div class="container1 flex flex-col justify-center items-center">
+          <div class="mt-[60px] text-center">
+            <h2
+              class="text-[54px] font-[700] text-white max-[513px]:text-[28px]"
+            >
+              Hamkorlik qilishga tayyormisiz?
+            </h2>
+            <p class="text-[18px] font-[500] text-a5 max-w-[551px] m-auto pt-4">
+              Our maintainers devote their time, effort, and heart to ensure
+              Webbrain UI keeps getting better. Support us by donating to our
+              collective
+            </p>
+          </div>
+          <!-- 1 -->
+          <div
+            class="bg-white flex items-center p-[24px_28px] justify-between w-[50%] rounded-[10px] m-[50px_0_30px_0] max-[970px]:flex-col max-[970px]:gap-5 max-[870px]:w-full"
+          >
+            <div class="flex items-center gap-4">
+              <img class="w-[40px] h-[40px]" src="./imgs/svg/open.svg" alt="" />
+              <div>
+                <h3 class="font-[600] text-[18px] text-dark56">
+                  Open Collective
+                </h3>
+                <p class="text-[16px] font-[400] text-a5">
+                  Sponsor the Webbrain UI maintainers
+                </p>
+              </div>
+            </div>
+            <button
+              class="p-[12px_27px] bg-d2 text-[14px] font-[600] text-white rounded-[8px] hover:bg-[#2e39b1] transition-all duration-500 max-[970px]:w-full"
+            >
+              Sponsor
+            </button>
+          </div>
+          <!-- btn2 -->
+          <div
+            class="bg-white flex items-center p-[24px_28px] justify-between w-[50%] rounded-[10px] m-[50px_0_30px_0]  max-[970px]:flex-col max-[970px]:gap-5 max-[870px]:w-full"
+          >
+            <div class="flex items-center gap-4">
+              <img class="w-[40px] h-[40px]" src="./imgs/svg/open.svg" alt="" />
+              <div>
+                <h3 class="font-[600] text-[18px] text-dark56">
+                  Open Collective
+                </h3>
+                <p class="text-[16px] font-[400] text-a5">
+                  Sponsor the Webbrain UI maintainers
+                </p>
+              </div>
+            </div>
+            <button
+              class="p-[12px_27px] bg-d2 text-[14px] font-[600] text-white rounded-[8px] hover:bg-[#2e39b1] transition-all duration-500 max-[970px]:w-full"
+            >
+              Sponsor
+            </button>
+          </div>
+
+          <div class="m-[60px_0_55px_0] text-center">
+            <h3 class="text-[18px] font-[600] text-white">
+              ORGANIZATION SPONSORS
+            </h3>
+            <div class="overflow-x-auto">
+              <div class="flex items-center gap-6 mt-[30px] max-[]:">
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+                <img
+                  class="w-[80px] h-[80px]"
+                  src="./imgs/svg/google.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="m-[60px_0_55px_0] text-center">
+              <h3 class="text-[18px] font-[600] text-white">
+                INDIVIDUAL SPONSORS
+              </h3>
+              <div class="overflow-x-auto">
+                <div class="flex items-center gap-6 mt-[30px]">
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-1.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-2.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-3.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-4.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-5.svg"
+                    alt=""
+                  />
+                  <img
+                    class="w-[80px] h-[80px]"
+                    src="./imgs/svg/avatar-6.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hamkorlik qilishga tayyormisiz? end -->
+
+      <!-- Bizning loyihalar -->
+      <section>
+        <div class="container1 p-[100px_0] flex flex-col gap-[115px]">
+          <div class="flex flex-col items-center justify-center gap-5">
+            <p class="font-[600] text-[18px] text-d2">PREMIUM COMPONENTS</p>
+            <h1
+              class="text-[54px] font-[700] text-dark56 max-[454px]:text-center max-[454px]:text-[30px]"
+            >
+              Bizning <span class="text-d2">loyihalar</span>
+            </h1>
+            <p class="text-[18px] font-[400] text-a5 max-w-[485px] text-center">
+              Beautiful and responsive React components to build your
+              application or marketing pages quicker.
+            </p>
+            <button
+              class="btn max-[425px]:w-full max-[425px]:justify-center hover:bg-[#2e39b1] transition-all duration-500"
+            >
+              Batafsil
+              <i class="fa-solid fa-arrow-right-long w-4"></i>
+            </button>
+          </div>
+          <div class="grid grid-cols-3 max-[1000px]:grid-cols-2">
+            <img
+              class="w-full hover:scale-110 hover:h-[400px] hover:-mt-[40px] transition duration-300 delay-150 hover:delay-300"
+              src="./imgs/img/project-1.png"
+              alt=""
+            />
+            <img
+              class="w-full hover:scale-110 hover:h-[400px] hover:-mt-[40px] transition duration-300 delay-150 hover:delay-300"
+              src="./imgs/img/project-2.png"
+              alt=""
+            />
+            <img
+              class="w-full hover:scale-110 hover:h-[400px] hover:-mt-[40px] max-[1000px]:text-center transition duration-300 delay-150 hover:delay-300 max-[1000px]:col-span-2"
+              src="./imgs/img/project-3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Bizning loyihalar end -->
+
+      <!-- Biz kuchlilarni tayyorlaymiz! start-->
+      <section class="bg-fc">
+        <div class="container1">
+          <div class="text-center pt-[70px] m-auto">
+            <h2
+              class="text-[54px] font-[700] max-w-[792px] m-auto text-dark56 max-[700px]:text-[40px] max-[340px]:text-[28px]"
+            >
+              Kelajagingizni
+              <span class="text-d2"> Khan Academy bilan</span> quring
+            </h2>
+            <p class="text-[20px] font-[400] text-a5 pt-4">
+              Quyida bizning ustun jihatlarimiz bilan tanishing
+            </p>
+            <button
+              class="btn max-[425px]:w-full max-[425px]:justify-center m-auto mt-10 hover:bg-[#2e39b1] transition-all duration-500"
+            >
+              Ko’proq ko’rish
+              <i class="fa-solid fa-arrow-right-long w-4"></i>
+            </button>
+          </div>
+        </div>
+        <img
+          class="mt-[145px] w-full h-[112px]"
+          src="./imgs/svg/point.svg"
+          alt=""
+        />
+      </section>
+      <!-- Biz kuchlilarni tayyorlaymiz! end -->
+
+      <!--  Biz bilan bog’lanish start-->
+      <section class="bg-d2">
+        <div
+          class="container1 flex items-center justify-between p-[35px_0] max-[730px]:flex-col max-[730px]:gap-5"
+        >
+          <div
+            class="flex items-center gap-5 max-[320px]:gap-2 max-[300px]:flex-col"
+          >
+            <img
+              class="w-[60px] h-[60px]"
+              src="./imgs/svg/discord.svg"
+              alt=""
+            />
+            <div>
+              <h3
+                class="text-[22px] font-[600] text-white max-[300px]:text-center"
+              >
+                Biz bilan bog’lanish
+              </h3>
+              <p
+                class="text-[16px] font-[400] text-a5 max-w-[300px] max-[300px]:text-center"
+              >
+                Feel free to ask questions, reports, issues and meet new people
+              </p>
+            </div>
+          </div>
+          <button
+            class="p-[20px_40px] bg-white rounded-[8px] text-[18px] font-[600] text-dark56 max-[1000px]:p-[10px_13px] max-[378px]:w-full"
+          >
+            <span class="text-d2">#KhanAcademy</span>ga qo‘shilish
+          </button>
+        </div>
+      </section>
+      <!--  Biz bilan bog’lanish end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="bg-fc">
+      <div
+        class="container1 p-[47px_0_65px_0] flex justify-between max-[1000px]:flex-col max-[1000px]:gap-5"
+      >
+        <div class="flex flex-col gap-[30px] max-[1000px]:hidden">
+          <div class="logo flex items-center gap-x-3">
+            <img
+              class="w-[44px] h-[44px]"
+              src="./imgs/svg/logo.svg"
+              alt="logo"
+            />
+            <div class="font-pop text-d2">
+              <h3><a class="font-[700] text-[18px]" href="#">Khan</a></h3>
+              <p><a class="font-[400] text-[14px]" href="#">Academy</a></p>
+            </div>
+          </div>
+          <p>
+            <a class="text-a5 text-[14px] font-[400]" href="#"
+              >Istiklal street, Tashkent, Uzbekistan, 200136</a
+            >
+          </p>
+          <div class="flex items-center gap-5">
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-twitter text-[15px]"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex gap-[104px] max-[1000px]:justify-center max-[424px]:gap-7"
+        >
+          <div
+            class="flex flex-col gap-[18px] text-a5 text-[16px] font-[400px]"
+          >
+            <h3 class="font-[500] text-dark56"><a href="#">Support</a></h3>
+            <a href="#">Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Security</a>
+          </div>
+          <div
+            class="flex flex-col gap-[18px] text-a5 text-[16px] font-[400px]"
+          >
+            <h3 class="font-[500] text-dark56"><a href="#">Product</a></h3>
+            <a href="#">Clinical Board</a>
+            <a href="#">CNews</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+          </div>
+          <div
+            class="flex flex-col gap-[18px] text-a5 text-[16px] font-[400px]"
+          >
+            <h3 class="font-[500] text-dark56"><a href="#">Security</a></h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-[18px] text-a5 text-[16px] font-[400px]">
+          <h3 class="font-[500] text-dark56 max-[1000px]:hidden">
+            <a href="#">Subscribe</a>
+          </h3>
+
+          <div
+            class="shadow-[0px_10px_16px_rgba(0,0,0,0.25)] flex justify-between rounded-[10px]"
+          >
+            <input
+              class="pl-[10px]"
+              type="email"
+              placeholder="hello@gmail.com "
+            />
+            <img src="./imgs/img/TElegram.png" alt="" />
+          </div>
+          <a
+            class="text-a5 text-[16px] font-[400px] hidden max-[1000px]:block"
+            href="#"
+            >Subscribe to get the latest news from us</a
+          >
+        </div>
+        <div
+          class="flex flex-col gap-[30px] max-[1450px]:hidden max-[1000px]:block max-[442px]:flex-row"
+        >
+          <div>
+            <div class="logo flex items-center gap-x-3">
+              <img
+                class="w-[44px] h-[44px]"
+                src="./imgs/svg/logo.svg"
+                alt="logo"
+              />
+              <div class="font-pop text-d2">
+                <h3><a class="font-[700] text-[18px]" href="#">Khan</a></h3>
+                <p><a class="font-[400] text-[14px]" href="#">Academy</a></p>
+              </div>
+            </div>
+            <p>
+              <a class="text-a5 text-[14px] font-[400]" href="#"
+                >Istiklal street, Tashkent, Uzbekistan, 200136</a
+              >
+            </p>
+          </div>
+          <div class="flex items-center gap-5">
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-twitter text-[15px]"></i>
+            </button>
+            <button
+              class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2 hover:bg-d2 hover:text-white"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
