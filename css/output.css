@@ -679,6 +679,10 @@ video {
   left: 0px;
 }
 
+.left-5 {
+  left: 1.25rem;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -709,10 +713,6 @@ video {
 
 .top-\[20px\] {
   top: 20px;
-}
-
-.left-5 {
-  left: 1.25rem;
 }
 
 .isolate {
@@ -803,8 +803,8 @@ video {
   margin-bottom: 0px;
 }
 
-.mb-\[200px\] {
-  margin-bottom: 200px;
+.mb-\[20px\] {
+  margin-bottom: 20px;
 }
 
 .mb-\[50px\] {
@@ -885,10 +885,6 @@ video {
 
 .mt-\[\] {
   margin-top: ;
-}
-
-.mb-\[20px\] {
-  margin-bottom: 20px;
 }
 
 .box-border {
@@ -1084,10 +1080,6 @@ video {
 
 .w-\[12px\] {
   width: 12px;
-}
-
-.w-\[20px\] {
-  width: 20px;
 }
 
 .w-\[250px\] {
@@ -2648,6 +2640,10 @@ video {
   padding: 4px 12px;
 }
 
+.p-\[4px_8px\] {
+  padding: 4px 8px;
+}
+
 .p-\[5px_10px\] {
   padding: 5px 10px;
 }
@@ -2678,14 +2674,6 @@ video {
 
 .p-\[8px_12px\] {
   padding: 8px 12px;
-}
-
-.p-\[3px_10px\] {
-  padding: 3px 10px;
-}
-
-.p-\[4px_8px\] {
-  padding: 4px 8px;
 }
 
 .px-1 {
@@ -3454,20 +3442,47 @@ video {
   .navbar-menu {
     position: fixed;
     top: 0;
-    left: -100%;
-    width: 80%;
+    left: 0;
+    opacity: 0;
+    width: 100%;
     height: 100vh;
+    z-index: -10;
+  }
+
+  .navbar-menu__content {
+    position: absolute;
     background-color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 20px;
-    transition: 0.8s;
-    z-index: 999;
+    transition: 0.2s linear;
+    width: 300px;
+    left: -100%;
   }
 
   #check:checked ~ .navbar-menu {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  #check:checked ~ .navbar-menu > .navbar-menu__content {
     left: 0;
+  }
+
+  .navbar-menu__overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    background-color: rgba(0, 36, 78, 0.25);
+  }
+
+  #check:checked ~ .navbar-menu .navbar-menu__overlay {
+    display: block;
   }
 }
 
@@ -3994,8 +4009,16 @@ input {
     display: block;
   }
 
+  .max-\[800px\]\:flex {
+    display: flex;
+  }
+
   .max-\[800px\]\:hidden {
     display: none;
+  }
+
+  .max-\[800px\]\:h-full {
+    height: 100%;
   }
 
   .max-\[800px\]\:flex-col {

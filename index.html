@@ -31,12 +31,16 @@
     <!-- header start -->
     <header class="header p-[21px_0]">
       <div class="container1 flex items-center justify-between">
-        
         <label class="hidden max-[800px]:block" for="check">
           <i class="fa-solid fa-bars-staggered text-[24px]"></i
         ></label>
         <div class="logo flex items-center gap-x-3">
-          <a href="./index.html"><img class="w-[44px] h-[44px]" src="./imgs/svg/logo.svg" alt="logo" /></a>
+          <a href="./index.html"
+            ><img
+              class="w-[44px] h-[44px]"
+              src="./imgs/svg/logo.svg"
+              alt="logo"
+          /></a>
           <div class="font-pop text-d2">
             <h3><a class="font-[700] text-[18px]" href="#">Khan</a></h3>
             <p><a class="font-[400] text-[14px]" href="#">Academy</a></p>
@@ -44,51 +48,56 @@
         </div>
         <input type="checkbox" id="check" class="hidden" />
         <div class="navbar-menu flex items-center gap-x-[30px]">
-          <label for="check">
-            <i
-              class="fa-solid fa-xmark hidden max-[800px]:block absolute top-5 left-5 text-[24px]"
-            ></i>
-          </label>
-          <nav class="max-[1000px]:hidden max-[800px]:block">
-            <ul
-              class="flex items-center gap-[30px] text-dark56 text-[16px] max-[800px]:flex-col"
-            >
-              <li><a href="#">Asosiy</a></li>
-              <li>
-                <a class="flex items-center gap-1" href="#"
-                  >Kurslarimiz
-                  <i class="fa-solid fa-chevron-down max-[800px]:hidden"></i>
-                </a>
-              </li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Biz haqimizda</a></li>
-              <li><a href="#">Bog’lanish</a></li>
-            </ul>
-          </nav>
-
-          <i
-            class="fa-solid fa-magnifying-glass text-a5 max-[800px]:hidden"
-          ></i>
-          <button
-            class="flex items-center gap-1 transition-all border border-solid border-f7 p-[4px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
+          <label for="check" class="w-full h-full navbar-menu__overlay"></label>
+          <div
+            class="navbar-menu__content max-[1000px]:hidden max-[800px]:flex max-[800px]:h-full"
           >
-            <h4>
-              <a class="text-[14px] font-[500] text-dark56" href="#">En</a>
-            </h4>
-            <i class="fa-solid fa-chevron-down text-[12px] text-dark56"></i>
-          </button>
-          <button
-            class="flex items-center gap-1 border border-solid border-f7 p-[6px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
-          >
-            <h4>
-              <a
-                class="text-dark56 text-[16px] font-[500]"
-                href="./doshbard.html"
-                >Kirish</a
+            <nav class="">
+              <label for="check">
+                <i
+                  class="fa-solid fa-xmark hidden max-[800px]:block absolute top-5 left-5 text-[24px]"
+                ></i>
+              </label>
+              <ul
+                class="flex items-center gap-[30px] text-dark56 text-[16px] max-[800px]:flex-col"
               >
-            </h4>
-            <i class="fa-solid fa-arrow-right-long w-4 text-dark56"></i>
-          </button>
+                <li><a href="#">Asosiy</a></li>
+                <li>
+                  <a class="flex items-center gap-1" href="#"
+                    >Kurslarimiz
+                    <i class="fa-solid fa-chevron-down max-[800px]:hidden"></i>
+                  </a>
+                </li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Biz haqimizda</a></li>
+                <li><a href="#">Bog’lanish</a></li>
+              </ul>
+            </nav>
+
+            <i
+              class="fa-solid fa-magnifying-glass text-a5 max-[800px]:hidden"
+            ></i>
+            <button
+              class="flex items-center gap-1 transition-all border border-solid border-f7 p-[4px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
+            >
+              <h4>
+                <a class="text-[14px] font-[500] text-dark56" href="#">En</a>
+              </h4>
+              <i class="fa-solid fa-chevron-down text-[12px] text-dark56"></i>
+            </button>
+            <button
+              class="flex items-center gap-1 border border-solid border-f7 p-[6px_12px] rounded-[6px] hover:border-x-f4 hover:bg-f4"
+            >
+              <h4>
+                <a
+                  class="text-dark56 text-[16px] font-[500]"
+                  href="./doshbard.html"
+                  >Kirish</a
+                >
+              </h4>
+              <i class="fa-solid fa-arrow-right-long w-4 text-dark56"></i>
+            </button>
+          </div>
         </div>
         <img
           class="hidden w-[44px] h-[44px] max-[800px]:block"
@@ -389,7 +398,7 @@
               Quyida bizning ustun jihatlarimiz bilan tanishing
             </p>
             <button
-              class="btn max-[425px]:w-full max-[425px]:justify-center m-auto mt-10 hover:bg-[#2e39b1] transition-all duration-500 "
+              class="btn max-[425px]:w-full max-[425px]:justify-center m-auto mt-10 hover:bg-[#2e39b1] transition-all duration-500"
             >
               Ko’proq ko’rish
               <i class="fa-solid fa-arrow-right-long w-4"></i>
@@ -413,7 +422,7 @@
               </div>
             </div>
 
-            <div class="relative h-full row-span-2  group">
+            <div class="relative h-full row-span-2 group">
               <img class="w-full h-[100%]" src="./imgs/img/card-3.png" alt="" />
               <div
                 class="card flex items-end justify-between absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
@@ -605,88 +614,88 @@
             </div>
             <!-- 2 -->
             <div
-            class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
-          >
-            <img
-              class="w-full h-[253px]"
-              src="./imgs/img/Brooklyn Simmons.png"
-              alt=""
-            />
-            <div class="pb-[10px] text-center">
-              <h3 class="text-[18px] font-[600] text-dark56">
-                Brooklyn Simmons
-              </h3>
-              <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
-            </div>
-            <div
-              class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
             >
-              <div class="flex items-center gap-5">
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-twitter text-[15px]"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </button>
+              <img
+                class="w-full h-[253px]"
+                src="./imgs/img/Brooklyn Simmons.png"
+                alt=""
+              />
+              <div class="pb-[10px] text-center">
+                <h3 class="text-[18px] font-[600] text-dark56">
+                  Brooklyn Simmons
+                </h3>
+                <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+              </div>
+              <div
+                class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <div class="flex items-center gap-5">
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-twitter text-[15px]"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
             <!-- 3 -->
             <div
-            class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
-          >
-            <img
-              class="w-full h-[253px]"
-              src="./imgs/img/Savannah Nguyen.png"
-              alt=""
-            />
-            <div class="pb-[10px] text-center">
-              <h3 class="text-[18px] font-[600] text-dark56">
-                Savannah Nguyen
-              </h3>
-              <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
-            </div>
-            <div
-              class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
             >
-              <div class="flex items-center gap-5">
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-twitter text-[15px]"></i>
-                </button>
-                <button
-                  class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </button>
+              <img
+                class="w-full h-[253px]"
+                src="./imgs/img/Savannah Nguyen.png"
+                alt=""
+              />
+              <div class="pb-[10px] text-center">
+                <h3 class="text-[18px] font-[600] text-dark56">
+                  Savannah Nguyen
+                </h3>
+                <p class="text-a5 font-[400] text-[16px]">Backend Developer</p>
+              </div>
+              <div
+                class="card flex items-center m-auto justify-center pt-[30px] absolute w-full h-full opacity-0 pointer-events-none rounded-xl ease-linear z-10 left-0 right-0 duration-300 group-hover:opacity-100 group-hover:top-0 group-hover:pointer-events-auto"
+              >
+                <div class="flex items-center gap-5">
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-twitter text-[15px]"></i>
+                  </button>
+                  <button
+                    class="bg-white p-[8px_12px] rounded-[100%] transition duration-700 text-d2"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
             <!-- 4 -->
             <div
               class="flex relative group flex-col justify-center items-center rounded-[20px] gap-7 shadow-[0px_10px_16px_rgba(0,0,0,0.25)]"
@@ -772,7 +781,7 @@
           </div>
           <!-- btn2 -->
           <div
-            class="bg-white flex items-center p-[24px_28px] justify-between w-[50%] rounded-[10px] m-[50px_0_30px_0]  max-[970px]:flex-col max-[970px]:gap-5 max-[870px]:w-full"
+            class="bg-white flex items-center p-[24px_28px] justify-between w-[50%] rounded-[10px] m-[50px_0_30px_0] max-[970px]:flex-col max-[970px]:gap-5 max-[870px]:w-full"
           >
             <div class="flex items-center gap-4">
               <img class="w-[40px] h-[40px]" src="./imgs/svg/open.svg" alt="" />
